@@ -1,3 +1,4 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
 /*
  * Copyright (C) 2010 - 2018 Novatek, Inc.
  *
@@ -133,9 +134,9 @@ struct nvt_flash_data{
 
 typedef enum {
 	RESET_STATE_INIT = 0xA0,// IC reset
-	RESET_STATE_REK,		// ReK baseline
-	RESET_STATE_REK_FINISH,	// baseline is ready
-	RESET_STATE_NORMAL_RUN,	// normal run
+	RESET_STATE_REK,        // ReK baseline
+	RESET_STATE_REK_FINISH, // baseline is ready
+	RESET_STATE_NORMAL_RUN, // normal run
 	RESET_STATE_MAX  = 0xAF
 } RST_COMPLETE_STATE;
 
